@@ -1,0 +1,27 @@
+h1 {
+	font-family: 'arial';
+	font-size: 50px;
+	text-shadow: 3px 3px 3px lightgrey;
+}
+
+button {
+	padding: 1em;
+	border: solid green 1px;
+	border-radius: 7px;
+	background: rgba(200,0,0,0);
+	transition: all ease 0.5s;
+	font-family: 'arial';
+	font-size: 25px;
+}
+
+button:hover {
+	background: green;
+	color: white;
+	cursor: pointer;
+}
+
+button:active {
+	background: darkgreen;
+	color: white;
+	cursor: pointer;
+}
