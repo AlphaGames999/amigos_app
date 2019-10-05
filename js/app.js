@@ -26,5 +26,6 @@ function eliminarAmigos() {
 	} else {
 		amigos.splice(posicion, 1);
 		alert(`Su amigo ${nombre} se ha eliminado correctamente de la lista de amigos`);
+		console.log(`${nombre} eliminado`);
 	}
 }
